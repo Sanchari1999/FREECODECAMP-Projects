@@ -13,15 +13,15 @@
 	<main> <!--This is a semantic tag that defines the main content of the web page.-->
 		<form id="survey-form"> <!--This creates a form with an ID of "survey-form". The form contains various input elements that users can fill out and submit.-->
 			<label for="name" id="name-label">Name:</label> <!--This is a label for the input element with the ID "name". The label text is "Name:" and the label has an ID of "name-label".-->
-			<input type="text" id="name" name="name" placeholder="Enter your name" required>
+			<input type="text" id="name" name="name" placeholder="Enter your name" required> <!--This creates an input field of type "text" with an ID of "name", a name of "name", a placeholder of "Enter your name", and the "required" attribute, which means that users must fill out this field before submitting the form.-->
 			
 			<label for="email" id="email-label">Email:</label>
 			<input type="email" id="email" name="email" placeholder="Enter your email" required>
 			
 			<label for="number" id="number-label">Age:</label>
-			<input type="number" id="number" name="age" placeholder="Enter your age" min="18" max="120" required>
+			<input type="number" id="number" name="age" placeholder="Enter your age" min="18" max="120" required> <!--This creates an input field of type "number" with an ID of "number", a name of "age", a placeholder of "Enter your age", and the "required" attribute. The "min" and "max" attributes set the minimum and maximum values that the user can enter.-->
 			
-			<label for="dropdown">Which option best describes you?</label>
+			<label for="dropdown">Which option best describes you?</label> <!--This is a label for the select element with the ID "dropdown". The label text is "Which option best describes you?".-->
 			<select id="dropdown" name="option">
 				<option disabled selected value="">Select an option</option>
 				<option value="option1">Option 1</option>
